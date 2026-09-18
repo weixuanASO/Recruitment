@@ -184,7 +184,7 @@ export const included = {
 export const mentor = {
   heading: "Meet Wei Xuan.",
   title: "Chua Wei Xuan — Financial Advisor & Mentor",
-  photo: "", // put an image URL or local path here later; a placeholder shows until then
+  photo: "/wei-xuan.jpg",
   stats: [
     { value: "SGX", label: "Career before this" },
     { value: "ORD", label: "When I made the switch" },
