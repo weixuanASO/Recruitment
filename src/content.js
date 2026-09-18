@@ -188,7 +188,7 @@ export const mentor = {
   stats: [
     { value: "SGX", label: "Career before this" },
     { value: "ORD", label: "When I made the switch" },
-    { value: "COT · 2026", label: "Court of the Table qualifier" },
+    { value: "COT ×2", label: "Court of the Table qualifier — 2023 & 2026" },
     { value: "finexis", label: "Independently owned — objective across 20 insurers" },
   ],
   story: [
