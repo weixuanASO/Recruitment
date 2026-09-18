@@ -35,7 +35,7 @@ export const stats = [
   { value: "SGX", label: "Where I started, before this" },
   { value: "20", label: "Insurers we stay objective across, via finexis" },
   { value: "Weekly", label: "1-on-1 mentorship — never figuring it out alone" },
-  { value: "COT", label: "What Jing Lin reached in her first few years" },
+  { value: "COT", label: "What Jing Lin hit in her 2nd year — her first full year" },
 ];
 
 export const reality = {
@@ -74,7 +74,7 @@ export const results = {
       before:
         "Planned a career in the maritime sector. Introverted. No sales background, no network, low confidence.",
       result: "Court of the Table",
-      resultSub: "within her first few years — then moved into management",
+      resultSub: "in her 2nd year — then moved into management",
       quote:
         "I didn't even dare to say out loud that I wanted MDRT. Under the right mentorship, I hit Court of the Table instead. You don't need to be extroverted to do well here — the mentorship matters more.",
       badges: ["Court of the Table", "Moved into management"],
@@ -188,6 +188,7 @@ export const mentor = {
   stats: [
     { value: "SGX", label: "Career before this" },
     { value: "ORD", label: "When I made the switch" },
+    { value: "COT · 2026", label: "Court of the Table qualifier" },
     { value: "finexis", label: "Independently owned — objective across 20 insurers" },
   ],
   story: [
