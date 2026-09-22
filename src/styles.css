@@ -32,6 +32,7 @@
   border: 1px solid var(--border); border-radius: var(--radius-sm);
   background: var(--bg-2); line-height: 1.55;
 }
+.fineprint__link { color: var(--gold); text-decoration: underline; white-space: nowrap; }
 
 /* ---------- sections ---------- */
 .section { padding: var(--section-y) 0; }

@@ -215,8 +215,12 @@ export const testimonials = {
     // { quote: "…", name: "…", detail: "…" },
   ],
   // Compliance disclaimer shown beneath this section (kept visible on the page by agreement).
+  // Adapted from finexis's own published General Advice Disclaimer —
+  // https://www.finexis.com.sg/general-disclaimer.html — still worth a compliance check
+  // since that page covers investment/advice content generally, not recruitment testimonials specifically.
   disclaimer:
-    "The views and opinions expressed by the individuals featured are their own and do not constitute financial advice or any official communication of any insurer. The contents of this website have not been reviewed by the Monetary Authority of Singapore. finexis advisory Pte Ltd is responsible for the content of this website.",
+    "The views and experiences shared above are those of the individuals featured and are not intended to be, and do not constitute, financial advice or any recommendation, and are not offered or endorsed by finexis advisory Pte Ltd (\"finexis\"). This page has not been reviewed by the Monetary Authority of Singapore. finexis makes no representation or warranty as to the adequacy, completeness, accuracy or timeliness of the information for any particular purpose.",
+  disclaimerLink: "https://www.finexis.com.sg/general-disclaimer.html",
 };
 
 export const faq = {

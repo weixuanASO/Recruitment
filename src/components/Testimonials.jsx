@@ -41,7 +41,17 @@ export default function Testimonials() {
         </div>
       )}
 
-      <p className="fineprint fineprint--box">{testimonials.disclaimer}</p>
+      <p className="fineprint fineprint--box">
+        {testimonials.disclaimer}
+        {testimonials.disclaimerLink && (
+          <>
+            {" "}
+            <a href={testimonials.disclaimerLink} target="_blank" rel="noreferrer" className="fineprint__link">
+              Full disclaimer
+            </a>
+          </>
+        )}
+      </p>
     </Section>
   );
 }
