@@ -5,6 +5,10 @@ Modeled on apply.danielheng.com.sg (structure) + therestive.co (visual style).
 Status: Phase 4 build COMPLETE (React + Vite). Runs locally via `npm run dev`.
 Phase 5 = backend wiring + deploy. See README.md and docs/BACKEND-SETUP.md.
 
+**Live link (always shows the latest push): https://recruitment-rose.vercel.app**
+(Not the deployment-specific `recruitment-<hash>-aso15.vercel.app` URLs Vercel shows after each individual deploy — those are one-time snapshots and don't update.)
+Domain `theadvisorpath.org` not yet connected — see docs/BACKEND-SETUP.md-adjacent Vercel → Domains step.
+
 ## Still needed from Wei Xuan before / during build
 - Block B FAQ answers (4, in his voice)
 - Finexis compliance sign-off on: firm name usage, case-study credentials, disclaimer placement, whole page
