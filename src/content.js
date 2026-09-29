@@ -27,15 +27,15 @@ export const hero = {
   title: "Build a financial advisory practice you actually own.",
   // one paragraph, founder voice
   body:
-    "Most people who try this career burn out chasing friends and family, then quit inside two years. The ones who last build a simple, repeatable system — and do the boring things long enough for it to compound. That's what I mentor people to do.",
+    "Most people who enter this career burn out chasing friends and family, then quit within two years. The ones who stick around build a simple, repeatable system — and stay consistent with the boring things long enough to let the results compound. That's what I mentor people to do.",
   ctaSub: "Takes about 3 minutes · No commitment · I review every application myself",
 };
 
 export const stats = [
   { value: "SGX", label: "Where I started, before this" },
-  { value: "20", label: "Insurers we stay objective across, via finexis" },
+  { value: "20", label: "Insurers we stay objective across, through finexis" },
   { value: "Weekly", label: "1-on-1 mentorship — never figuring it out alone" },
-  { value: "COT", label: "What Jing Lin hit in her 2nd year — her first full year" },
+  { value: "COT", label: "What my manager cleared in her first full year in this career" },
 ];
 
 export const reality = {
@@ -57,7 +57,7 @@ export const reality = {
       n: "03",
       title: "The people doing well aren't sharing how.",
       body:
-        "In a self-employed job, most advisors guard what works. You're left reverse-engineering success on your own.",
+        "Most self-employed advisors keep their best practices close. You're left to figure out what works through trial and error.",
     },
   ],
   bridge:
@@ -91,8 +91,9 @@ export const results = {
       badges: ["Moved into management — Year 2"],
       placeholder: false,
     },
-    { name: "Your name here", before: "Add this case study in src/content.js", result: "—", resultSub: "placeholder", quote: "Placeholder — swap in a real story when you have it.", badges: ["Placeholder"], placeholder: true },
-    { name: "Your name here", before: "Add this case study in src/content.js", result: "—", resultSub: "placeholder", quote: "Placeholder — swap in a real story when you have it.", badges: ["Placeholder"], placeholder: true },
+    // Add more real case studies here as they become available — placeholders were
+    // removed before launch since they showed dev-facing text ("Add this case study
+    // in src/content.js") to real visitors. To add one, copy the Denzel object above.
   ],
 };
 
@@ -151,7 +152,7 @@ export const forYou = {
   forTitle: "This is for you if…",
   notTitle: "This is not for you if…",
   for: [
-    "You're a working professional who's hit a ceiling — income, growth, or meaning",
+    "You're a working professional who feels like you've hit a ceiling — in income, growth, or purpose",
     "You're 2–3 years into the industry and can't figure out why you're not hitting MDRT / COT",
     "You're trustworthy, likeable, and coachable — this matters to me more than your résumé",
     "You want a career you can do well for years, not a quick win",
@@ -196,7 +197,7 @@ export const mentor = {
     "I came in chasing something specific: freedom, no income ceiling, the ability to retire my parents, and a career with real meaning — one I could do well for 20 to 30 years, not burn out of in two.",
     "What I learned is that the advisors who last aren't the ones who hustle hardest. They're the ones who build a simple system and repeat the boring, compounding actions long enough for it to pay off. What is not simple is not replicable — and what is not replicable will not scale.",
     "I started mentoring because this career changed my life, and because of something my late mother told me: 学到的就要教，赚到的就要给 — what you learn, you teach; what you earn, you give. Growing a team is how I get to live that out at scale.",
-    "The moment that stays with me: watching advisors who joined me in their early twenties buy their own condo before turning 30. That's not a sales story — that's a life changing.",
+    "The moment that stays with me: watching advisors who joined me in their early twenties buy their own condo before turning 30. That's not a sales story — that is truly life changing.",
   ],
   thesis: "What is not simple is not replicable — and what is not replicable will not scale.",
   thesisSub: "Freedom is built by repeatedly doing the boring things that compound.",
@@ -241,7 +242,7 @@ export const faq = {
   blockB: [
     {
       q: "Don't you have to be loud and pushy to do well in this?",
-      a: "No — Jing Lin is proof. She came in convinced she was ‘too introverted’ for this, quit once because of it, and came back after realising the mentorship matters more than personality. She's since made Court of the Table. What actually moves the needle is whether people trust you, not how loud you are.",
+      a: "Not at all. Jing Lin is proof. She started out convinced she was \"too introverted\" for the job — and even quit once because of it. She eventually came back after realising that the right mentorship matters more than personality type. She's since gone on to achieve Court of the Table. What really moves the needle isn't how loud you are. It's how much people trust you.",
     },
     {
       q: "Shouldn't I keep my stable job and try this later?",
@@ -253,7 +254,7 @@ export const faq = {
     },
     {
       q: "What will my family think of me doing this?",
-      a: "Ask Denzel — his family told him upfront they didn't like financial advisors, and he joined anyway. What changed their minds wasn't an argument, it was watching him do it properly: know what he's doing, and sell the right thing to the right person. Most families come around once they see the work, not before.",
+      a: "Ask Denzel. His family told him upfront that they didn't like financial advisors — and he joined anyway. What changed their minds wasn't an argument. It was seeing him do the work properly: knowing his stuff, acting with integrity, and recommending the right solutions to the right people. Most families don't come around because you convince them. They come around when they see you doing the work well.",
     },
   ],
 };
