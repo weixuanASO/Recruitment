@@ -35,7 +35,7 @@ export const stats = [
   { value: "SGX", label: "Where I started, before this" },
   { value: "20", label: "Insurers we stay objective across, through finexis" },
   { value: "Weekly", label: "1-on-1 mentorship — never figuring it out alone" },
-  { value: "COT", label: "What my manager cleared in her first full year in this career" },
+  { value: "COT", label: "What Jing Lin hit in her first full year in this career" },
 ];
 
 export const reality = {
