@@ -7,7 +7,12 @@ Phase 5 = backend wiring + deploy. See README.md and docs/BACKEND-SETUP.md.
 
 **Live link (always shows the latest push): https://recruitment-rose.vercel.app**
 (Not the deployment-specific `recruitment-<hash>-aso15.vercel.app` URLs Vercel shows after each individual deploy — those are one-time snapshots and don't update.)
-Domain `theadvisorpath.org` not yet connected — see docs/BACKEND-SETUP.md-adjacent Vercel → Domains step.
+
+**Custom domain `theadvisorpath.org` — CONFIRMED LIVE** (verified working over mobile data).
+Note: on networks running Fortigate corporate-firewall SSL inspection (e.g. some office networks) without
+its root certificate installed, Chrome will show a NET::ERR_CERT_AUTHORITY_INVALID error — that's local
+network/IT config, not a problem with the site. Fix is on that network's end (install the Fortigate root
+cert, or ask IT), or just use a different network.
 
 ## Still needed from Wei Xuan before / during build
 - Block B FAQ answers (4, in his voice)
